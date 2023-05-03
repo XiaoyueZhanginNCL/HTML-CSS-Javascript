@@ -1,3 +1,110 @@
 body{
-    background-color: blueviolet;
+    margin: 0;
+    text-align: center;
+}
+
+h1{
+    color:#E74646;
+    margin: 50px auto 0 auto;
+    font-family: 'Pacifico', sans-serif;
+    font-size: 5.625rem;
+}
+h2{
+    color:#E74646;
+    font-family: 'Lobster', cursive;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+h3{
+    color:#E74646;
+    font-family: 'Dosis', sans-serif;
+
+}
+p{
+    font-family: 'Poltawski Nowy', serif;
+    line-height: 2;
+}
+
+hr{
+    width:6%;
+    border-style: none;
+    border-top-style:dotted;
+    border-width: 6px;
+    color:#FA9884;
+    margin: 100px auto; 
+}
+
+.The-top-container{
+    background-color: #FFF3E2;
+    padding-top: 100px;
+    position: relative;
+
+}
+
+.middle-container{
+    margin:100px auto;
+}
+
+.bottom-container{
+    background-color: #FFE5CA;
+    padding: 75px;
+    color:#FA9884;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom:300px;
+}
+.top-cloud{
+    position: absolute;
+    top:50px;
+    right:300px;
+}
+.skill-row{
+    width:50%;
+    margin: 100px auto;
+    text-align: start;
+    line-height: 2;
+}
+.img-coding{
+    width:25%;
+    float:left;
+    margin:auto 30px auto auto;
+}
+.img-developer{
+    width:25%;
+    float:right;
+    margin: auto auto auto 30px;
+}
+
+.profile{
+    width:30%;
+    margin:auto;
+}
+
+.contact-me{
+    width:35%;
+    margin:auto;
+}
+.copyright{
+    padding-top: 30px;
+}
+a{
+    color: #FA9884;
+    text-decoration: none;
+    margin: auto 30px;
+
+}
+a:hover{
+    color:#ffffff
+}
+.btn{
+    background-color:#FFE5CA;
+    padding: 10px 5px 10px 5px;
+    position:relative;
+    top:30px;
+    border-radius: 4px;
+}
+.btn:hover{
+    background-color: #FA9884;
 }
