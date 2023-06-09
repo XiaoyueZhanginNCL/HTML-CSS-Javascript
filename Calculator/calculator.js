@@ -20,6 +20,18 @@ app.post("/",function(req,res){//处理来自主路由（主页面）的请求
     res.send("The result is "+sum);
 })
 
+app.get("/bmicalculator",function(req,res){
+    res.sendFile(__dirname + "/BMIcaculator.html");
+})
+
+app.post("/bmicalculator", function(req,res){
+    var height=Number(req.body.height);
+    var weight=Number(req.body.weight);
+    var bmi=Math.floor(weight/(height*height));
+
+    res.send("Your BMI is "+ bmi);
+})
+
 app.listen(3000,function(){
     console.log("hi");
 })
